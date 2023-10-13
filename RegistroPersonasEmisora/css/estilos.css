@@ -1,0 +1,162 @@
+html {
+  background-color: #2196f3;
+  min-height: 1000px;
+  font-family: "helvetica neue";
+  background: url(fondo.png), #2196f3;
+  background: url(fondo.png),
+    -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
+  background: url(fondo.png),
+    linear-gradient(to left, #2196f3, #009688);
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+#cabecero {
+  background-color: rgb(8, 128, 60);
+  text-align: center;
+}
+
+.formulario {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 800px;
+  padding: 30px;
+  background-color: #f4f5f3;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.formulario input:focus {
+  border: 1px solid #000;
+}
+
+.formulario label {
+  
+  margin-bottom: 5px;
+}
+
+/*
+.contenedor {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.contenedor table {
+  width: 100%;
+  border-collapse: collapse;
+}*/
+
+.contenedor th,
+.contenedor td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contenedor th {
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 500px) {
+  .contenedor table {
+    width: 100%;    
+  }
+
+  .contenedor th,
+  .contenedor td {
+    display: block;
+    width: 100%;
+    text-align: center;    
+  }
+}
+
+
+.contenedor2 {
+  max-width: 75px;
+  margin: 30px auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: rgb(126, 12, 96);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.boton {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 100px;
+  padding: 10px;
+  background-color: #257a2f;
+  color: #fff;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #04200b;
+}
+
+
+
+.elemento {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #662020;
+}
+
+.elemento:last-child {
+  border-bottom: 0;
+}
+
+input[type="checkbox"] {
+  margin: 10px;
+}
+
+p {
+  margin: auto;
+  padding: auto;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+  color: #cfced4;  
+}
+
+form {
+  text-align: center;
+  margin-left: 15px;
+}
+
+input[type="text"] {
+  text-align: left;
+  height: 25px;
+  top: 10px;
+  border: none;
+  background: fixed;
+  font-weight: 150;
+  width: 45%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #3f51b5;
+}
+
+.p2 {
+  font-style: italic;
+}
+
+::placeholder {
+  color: rgb(160, 149, 149);
+  opacity: 1;
+}
