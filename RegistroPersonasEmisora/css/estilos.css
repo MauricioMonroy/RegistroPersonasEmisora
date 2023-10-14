@@ -1,0 +1,81 @@
+html {
+  background-color: #2196f3;
+  min-height: 1000px;
+  font-family: "helvetica neue";
+  background: url(fondo.png), #2196f3;
+  background: url(fondo.png),
+    -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
+  background: url(fondo.png),
+    linear-gradient(to left, #2196f3, #009688);
+}
+
+h1 {
+  color: #29245e;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* CSS del formulario */
+.formulario {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0 auto;
+  width: 800px;
+  padding: 30px;
+  background-color: #f4f5f3;
+}
+
+.formulario input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.formulario input:focus {
+  border: 1px solid black;
+}
+
+.formulario label {
+  margin-bottom: 5px;
+}
+
+/* CSS de la tabla de resultados */
+.contenedor th,
+.contenedor td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contenedor th {
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 500px) {
+  .contenedor table {
+    width: 100%;    
+  }
+
+  .contenedor th,
+  .contenedor td {
+    display: block;
+    width: 100%;
+    text-align: center;    
+  }
+}
+
+/* CSS del botón */
+.boton {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 100px;
+  padding: 10px;
+  background-color: #257a2f;
+  color: white;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #04200b;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de Personas de Emisora</title>
+    <link rel="stylesheet" href="/css/estilos.css" />
+  </head>
+  <body onload="mostrarPersonas()">
+    <div class="cabecero" id="cabecero">
+      <h1>Formulario de registro de datos de oyentes</h1>
+    </div>
+
+    <div class="formulario">
+      <form id="forma">
+        <label class="formulario label">Nombre completo: </label>   
+        <input
+          class="formulario input"
+          type="text"
+          id="nombreCompleto"
+          placeholder="Escriba su nombre completo" />
+          <br />
+          <br />
+          <label class="formulario label">Número de cédula</label>   
+        <input
+          class="formulario input"
+          type="text"
+          id="cedula"
+          placeholder="Escriba el número de su documento sin puntos o comas" /><br /><br />
+        <label class="formulario label">Fecha de nacimiento</label>        
+        <input
+          class="formulario input"
+          type="date"
+          id="fechaNacimiento"
+          data-placeholder="Ingrese su fecha de nacimiento" />
+        <br />
+        <br />
+        <label class="formulario label">Correo electrónico</label>   
+        <input
+          class="formulario input"
+          type="email"
+          id="email"
+          placeholder="Escriba un correo electrónico válido" />
+        <br />
+        <br />
+        <label class="formulario label">Ciudad de residencia</label>   
+        <input
+          class="formulario input"
+          type="text"
+          id="ciudadResidencia"
+          placeholder="Escriba la ciudad donde reside actualmente" />
+          <br />
+        <br />
+        <label class="formulario label">Ciudad de nacimiento</label>   
+        <input
+          class="formulario input"
+          type="text"
+          id="ciudadOrigen"
+          placeholder="Escriba la ciudad donde nació" />
+          <br />
+        <br />
+        <label class="formulario label">Artista favorito</label>   
+        <input
+          class="formulario input"
+          type="text"
+          id="artistaFavorito"
+          placeholder="Escriba el nombre de su artista o grupo musical favorito" />
+          <br />
+        <br />
+        <br />
+          <label class="formulario label">Canción favorita 1</label>   
+        <input
+          class="formulario input"
+          type="text"
+          id="cancion1"
+          placeholder="Escriba el título de canción" />
+          <br />
+        <br />
+          <label class="formulario label">Canción favorita 2</label> 
+        <input
+          class="formulario input"
+          type="text"
+          id="cancion2"
+          placeholder="Escriba el título de canción" />
+          <br />
+        <br />
+          <label class="formulario label">Canción favorita 3</label> 
+        <input
+          class="formulario input"
+          type="text"
+          id="cancion3"
+          placeholder="Escriba el título de canción" />
+        <input type="hidden" id="id" name="id" />
+      </form>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <button class="boton" onclick="agregarRegistro()">
+        <p>Guardar</p>
+        <i
+          class="fa-sharp fa-regular fa-floppy-disk fa-2xl"
+          style="color: #e6f2e5"></i>
+      </button>
+      <button class="boton" onclick="limpiarFormulario()">
+        <p>Limpiar</p>
+        <i
+          class="fa-sharp fa-regular fa-trash-can fa-2xl"
+          style="color: #e6f2e5"></i>
+      </button>
+      <br />
+    </div>
+
+    <br />
+    <div class="contenedor">
+      <table class="contenedor table" id="filaPersona">
+        <thead>
+          <tr>
+            <th id="idNombreCompleto">Nombre completo</th>
+            <th id="idCedula">Cédula</th>
+            <th id="idFechaNacimiento">Fecha de nacimiento</th>
+            <th id="idEmail">Correo electrónico</th>
+            <th id="idCiudadResidencia">Ciudad de residencia</th>
+            <th id="idCiudadOrigen">Ciudad de origen</th>
+            <th id="idArtistaFavorito">Artista favorito</th>
+            <th id="idCancion1">Canción 1</th>
+            <th id="idCancion2">Canción 2</th>
+            <th id="idCancion3">Canción 3</th>
+            <th id="id">Número aleaotorio</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/dc97c04e5e.js"
+      crossorigin="anonymous"></script>
+    <script src="/js/persona.js"></script>
+    <script src="/js/app.js"></script>
+  </body>
+</html>
