@@ -113,12 +113,9 @@ h1 {
 css
 .formulario input {
   font-size: 18px;
-}
+}```
 
-
-
-
-* **Contacto
+Contacto
 
 Para obtener m+as ayuda con este programa, se puede comunicar con el autor a [mauricio.monroy0@soy.sena.edu.co].
 
