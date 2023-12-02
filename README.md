@@ -93,7 +93,7 @@ Para personalizar la interfaz de usuario, se puede editar la hoja de estilo CSS.
 Aquí algunos ejemplos de cómo usar el CSS para personalizar la interfaz de usuario:
 
     Para cambiar el color de fondo de la página, se puede modificar la siguiente línea de código:
-    css
+**css
 html {
 background-color: #2196f3;
 }
@@ -112,7 +112,7 @@ h1 {
 css
 .formulario input {
   font-size: 18px;
-}
+}**
 
 
 
