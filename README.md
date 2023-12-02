@@ -96,20 +96,20 @@ Aquí algunos ejemplos de cómo usar el CSS para personalizar la interfaz de usu
 **css
 html {
 background-color: #2196f3;
-}
+}**
 
 
 * **Para cambiar el color del texto del título, se puede modificar la siguiente línea de código:**
 
-css
+**css
 h1 {
   color: #fff;
-}
+}**
 
 
 * **Para cambiar el tamaño de la fuente de los campos de texto, se puede modificar la siguiente línea de código:**
 
-css
+**css
 .formulario input {
   font-size: 18px;
 }**
