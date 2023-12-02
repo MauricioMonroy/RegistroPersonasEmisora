@@ -102,7 +102,7 @@ background-color: #2196f3;
 
 * **Para cambiar el color del texto del título, se puede modificar la siguiente línea de código:**
 
-```css
+css
 h1 {
   color: #fff;
 }
@@ -115,12 +115,12 @@ css
   font-size: 18px;
 }
 
+
 ______________________________________________
 
 Contacto
 
-Para obtener m+as ayuda con este programa, se puede comunicar con el autor a [mauricio.monroy0@soy.sena.edu.co].
+Para obtener más ayuda con este programa, se puede comunicar con el autor al correo: mauricio.monroy0@soy.sena.edu.co.
 
-Autor
-[Mauricio Alberto Monroy Calle]
+Autor: Mauricio Alberto Monroy Calle
 
