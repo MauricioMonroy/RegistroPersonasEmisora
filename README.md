@@ -113,7 +113,8 @@ h1 {
 css
 .formulario input {
   font-size: 18px;
-}```
+}
+
 ______________________________________________
 
 Contacto
@@ -122,3 +123,4 @@ Para obtener m+as ayuda con este programa, se puede comunicar con el autor a [ma
 
 Autor
 [Mauricio Alberto Monroy Calle]
+
