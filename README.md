@@ -102,7 +102,7 @@ background-color: #2196f3;
 
 * **Para cambiar el color del texto del título, se puede modificar la siguiente línea de código:**
 
-css
+`css
 h1 {
   color: #fff;
 }
@@ -113,7 +113,7 @@ h1 {
 css
 .formulario input {
   font-size: 18px;
-}
+}`
 
 
 ______________________________________________
